@@ -15,7 +15,7 @@
 
 #### Kebutuhan Sistem:
 
-- Server Ubuntu 20.04+
+- Server Ubuntu 20.04 / Ubuntu-22.04 / versi yang lebih tinggi
 - Nginx Web server
 - PHP 7.4+ (dengan ekstensi yang dibutuhkan)
 - MySQL 5.7+ atau MariaDB 10.1+
