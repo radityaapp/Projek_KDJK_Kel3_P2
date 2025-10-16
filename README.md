@@ -17,8 +17,6 @@
 - [Kebutuhan Sistem](#kebutuhan-sistem)
 - [Instalasi Manual](#instalasi-manual)
 - [Instalasi Otomatis](#instalasi-otomatis)
-- [Konfigurasi Lanjutan](#konfigurasi-lanjutan)
-- [Keamanan](#keamanan)
 - [Troubleshooting](#troubleshooting)
 - [Optimasi Performa](#optimasi-performa)
 - [Referensi](#referensi)
