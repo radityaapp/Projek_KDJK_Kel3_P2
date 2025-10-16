@@ -366,15 +366,6 @@ opcache.revalidate_freq=60
 opcache.fast_shutdown=1
 ```
 
-### CDN Integration
-
-Gunakan CDN seperti:
-
-- Cloudflare (gratis)
-- StackPath
-- KeyCDN
-- BunnyCDN
-
 ### Database Optimization
 
 Jalankan secara berkala:
