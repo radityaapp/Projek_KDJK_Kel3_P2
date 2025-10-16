@@ -1,11 +1,3 @@
-Berikut **kode Markdown revisi lengkap** untuk dokumen setup WooCommerce + WordPress + Nginx, sudah:
-✅ Daftar isi bisa diklik
-✅ Heading “Troubleshooting” disetarakan dengan bab lain
-✅ Tidak ada komentar atau catatan tambahan
-
----
-
-```md
 # Setup WordPress + WooCommerce dengan Nginx
 
 <div align="center">
@@ -83,6 +75,7 @@ Proyek ini mendokumentasikan proses instalasi dan konfigurasi WordPress dengan p
 | MySQL    | 8.0+                    |
 
 ### Ekstensi PHP yang Dibutuhkan
+
 ```
 
 php-fpm
@@ -97,7 +90,7 @@ php-zip
 php-intl
 php-soap
 
-````
+```
 
 ## 🚀 Instalasi Manual
 
@@ -109,7 +102,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install nginx mysql-server php8.1-fpm php8.1-mysql php8.1-xml \
   php8.1-xmlrpc php8.1-curl php8.1-gd php8.1-imagick php8.1-mbstring \
   php8.1-zip php8.1-intl php8.1-soap git unzip curl -y
-````
+```
 
 ### Langkah 2: Konfigurasi Firewall
 
