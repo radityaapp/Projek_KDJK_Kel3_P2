@@ -205,24 +205,73 @@ sudo nano /etc/nginx/sites-available/woocommerce
 
 Tambahkan konfigurasi berikut:
 
-````nginx
-    server {
-        listen 80;
-        server_name ip_server_atau_domain;
-        root /var/www/woocommerce;
+```nginx
+server {
+    listen 80;
+    listen [::]:80;
 
-        index index.php;
+    server_name your_domain.com www.your_domain.com;
+    root /var/www/woocommerce;
 
-        location / {
-            try_files $uri $uri/ /index.php?$args;
-        }
+    index index.php index.html index.htm;
 
-        location ~ \.php$ {
-            include snippets/fastcgi-php.conf;
-            fastcgi_pass unix:/var/run/php/php8.1-fpm.sock; # Sesuaikan versi PHP jika beda
-        }
+    # Logging
+    access_log /var/log/nginx/woocommerce_access.log;
+    error_log /var/log/nginx/woocommerce_error.log;
+
+    # Max upload size
+    client_max_body_size 128M;
+
+    # Root location
+    location / {
+        try_files $uri $uri/ /index.php?$args;
     }
-    ```
+
+    # PHP processing
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+        fastcgi_intercept_errors on;
+        fastcgi_buffer_size 128k;
+        fastcgi_buffers 256 16k;
+        fastcgi_busy_buffers_size 256k;
+        fastcgi_temp_file_write_size 256k;
+    }
+
+    # Security headers
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header X-XSS-Protection "1; mode=block" always;
+
+    # Deny access to hidden files
+    location ~ /\. {
+        deny all;
+        access_log off;
+        log_not_found off;
+    }
+
+    # Deny access to wp-config.php
+    location = /wp-config.php {
+        deny all;
+    }
+
+    # Cache static files
+    location ~* \.(jpg|jpeg|png|gif|ico|css|js|svg|woff|woff2|ttf|eot)$ {
+        expires 365d;
+        add_header Cache-Control "public, immutable";
+    }
+
+    # Gzip compression
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1000;
+    gzip_types text/plain text/css text/xml text/javascript
+               application/x-javascript application/xml+rss
+               application/javascript application/json;
+}
+```
 
 Enable site dan test konfigurasi:
 
@@ -230,7 +279,7 @@ Enable site dan test konfigurasi:
 sudo ln -s /etc/nginx/sites-available/woocommerce /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
-````
+```
 
 ### Langkah 7: Instalasi WordPress via Browser
 
