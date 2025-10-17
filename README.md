@@ -31,6 +31,7 @@
 - [Troubleshooting](#-troubleshooting)
 - [Optimasi Performa](#-optimasi-performa)
 - [Cara Penggunaan WooCommerce](#-cara-penggunaan-woocommerce)
+- [Pembahasan: WooCommerce vs. Others](#-pembahasan-woocommerce-vs-others)
 - [Referensi](#-referensi)
 
 ## 🎯 Sekilas Tentang WooCommerce
@@ -475,7 +476,7 @@ Toko dapat dibuka ke publik. Matikan *Maintenance Mode* dan toko sudah siap bero
 
 ![Publish Toko](./Screenshot/Up%20toko.png)
 
-## 🛒 Pembahasan: Woocommerce vs. Others
+## 🛒 Pembahasan: WooCommerce vs. Others
 
 ### PrestaShop 🛍
 - ✅ Kelebihan: memiliki fitur bawaan yang lebih lengkap (laporan statistik yang detail, dll), manajemen multitoko yaitu mengelola beberapa toko dari satu panel admin jauh lebih mudah, performa lebih baik
