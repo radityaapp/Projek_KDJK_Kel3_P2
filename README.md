@@ -464,17 +464,7 @@ Toko dapat dibuka ke publik. Matikan _Maintenance Mode_ dan toko sudah siap bero
 
 ### ✅ Kelebihan
 
-WooCommerce adalah platform e-commerce open-source yang dibangun di atas WordPress. Berikut adalah kelebihan-kelebihannya:
 
-1. _Terintegrasi dengan WordPress_ - WooCommerce adalah plugin yang berjalan di atas platform WordPress, sehingga dapat memanfaatkan semua fitur WordPress untuk konten, blog, dan SEO yang lebih baik. Ini memudahkan untuk mengelola toko online dan website informasi dalam satu dashboard.
-
-2. _Panel administrasi yang intuitif dan mudah digunakan_ - WooCommerce memiliki antarmuka yang user-friendly dengan sistem dashboard yang jelas, sehingga pengguna pemula sekalipun dapat dengan mudah mengelola produk, pesanan, dan pengaturan toko tanpa memerlukan keahlian teknis yang mendalam.
-
-3. _Sangat fleksibel dan dapat dikustomisasi_ - WooCommerce adalah open-source dan modular, memungkinkan developer untuk membuat customization dan ekstensi sesuai kebutuhan bisnis spesifik. Ribuan plugin dan tema tersedia untuk memperluas fungsionalitas.
-
-4. _Mendukung berbagai metode pembayaran_ - WooCommerce kompatibel dengan berbagai gateway pembayaran populer seperti PayPal, Stripe, Square, Bank Transfer, dan berbagai payment gateway lokal, memberikan fleksibilitas kepada pelanggan dalam memilih cara pembayaran.
-
-5. _Responsif dan mobile-friendly_ - Desain WooCommerce secara default responsive dan dapat diakses dengan baik melalui berbagai perangkat (desktop, tablet, smartphone), memastikan pengalaman berbelanja yang optimal untuk semua pengguna.
 
 6. _Komunitas yang besar dan aktif_ - WooCommerce memiliki komunitas pengguna dan developer yang sangat besar. Forum diskusi, documentation, dan community support tersedia di WordPress.org, sehingga masalah yang dihadapi dapat cepat terselesaikan dengan bantuan komunitas.
 
