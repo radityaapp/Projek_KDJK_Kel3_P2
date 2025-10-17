@@ -44,7 +44,7 @@ Proyek ini mendokumentasikan proses instalasi dan konfigurasi WordPress dengan p
 
 ### Mengapa Nginx?
 
-- ⚡ Performa tinggi untuk melayani konten stati
+- ⚡ Performa tinggi untuk melayani konten statis
 - 🔄 Reverse proxy yang efisien
 - 💪 Mampu menangani ribuan koneksi simultan
 - 📉 Penggunaan resource yang lebih rendah dibanding Apache
