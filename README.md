@@ -30,6 +30,7 @@
 - [Kelebihan & Kekurangan](#-kelebihan--kekurangan)
 - [Troubleshooting](#-troubleshooting)
 - [Optimasi Performa](#-optimasi-performa)
+- [Cara Penggunaan WooCommerce](#-cara-penggunaan-woocommerce)
 - [Referensi](#-referensi)
 
 ## 🎯 Sekilas Tentang WooCommerce
@@ -414,6 +415,65 @@ wp db optimize --all-tables
 ```
 
 Atau install plugin **WP-Optimize**.
+
+## 🧑‍💻 Cara Penggunaan WooCommerce
+Cara penggunaan **WooCommerce** jauh lebih mudah daripada yang terlihat. Plugin ini bekerja langsung dalam **WordPress**, jadi kalau sudah familiar/terbiasa dengan tampilan dashboard WordPress, penggunaan WooCommerce bukanlah suatu tantangan yang besar.
+
+Berikut langkah-langkah penggunaan WooCommerce secara umum:
+
+### 1. Login WordPress untuk Akses Admin WooCommerce
+Sebelum dapat mengatur apapun pada WooCommerce, login ke halaman **Admin WordPress** diperlukan. Setelah berhasil login akan dibawa ke dashboard utama WordPress.
+![Admin WP](./Screenshot/Login%20WordPress%20untuk%20admin%20akses%20WooCommerce.png)
+
+### 2. Dashboard Awal
+Setelah WooCommerce berhasil diinstal dan login pada WordPress, tampilan **Dashboard Awal** akan terlihat. Di halaman ini, ringkasan seluruh aktivitas yang toko dapat lakukan akan terlihat.
+
+![Dashboard Awal](./Screenshot/Dashboard%20Awal.png)
+
+WooCommerce juga akan menampilkan notifikasi penting di sini, seperti pesanan baru, stok menipis, atau update sistem yang perlu dilakukan.
+
+### 3. Maintenance Mode
+Sebelum *open* ke publik, ada baiknya **Maintenance Mode** diaktifkan. Selama mode ini aktif, pengunjung hanya akan melihat halaman penjelasan bahwa toko sedang melakukan sesuatu di belakang layar.
+
+![Maintenance Mode](./Screenshot/Maintenance%20mode.png)
+
+### 4. Add Product
+Setelah tampilan toko siap, produk dapat ditambahkan ke katalog pada toko melalui Produk -> **Tambahkan Produk**. Lengkapi detail produk seperti nama produk, deskripsinya, stok, harga, dan lain sebagainya.
+
+![Add Product](./Screenshot/Add%20product.png)
+
+### 5. Cek Pesanan Pembeli
+Begitu toko aktif dan transaksi diterima, menu **Pesanan** akan menjadi salah satu menu yang akan sering dibuka. Aktivitas penjualan akan terkam secara otomatis di sini.
+
+![Cek Pesanan Pembeli](./Screenshot/Cek%20pesanan%20pembeli.png)
+
+### 6. Cek Data Pelanggan
+Halaman **Pelanggan** dapat digunakan untuk menampilkan daftar pelanggan yang pernah belanja pada toko. Laman ini menunjukkan *customer* mana yang lebih loyal.
+
+![Cek Data Pelanggan](./Screenshot/Cek%20data%20pelanggan.png)
+
+### 7. Stastik Toko
+Menu **Laporan** di WooCommerce berisi data performa toko secara visual dan mendetail. Di laman ini dapat dilihat grafik penjualan, *best seller product*, pesanan yang dibatalkan, dan lain sebagainya.
+
+![Statistic](/Screenshot/Statistik%20toko.png)
+
+### 8. Extensions di WooCommerce
+Berbagai fitur tambahan dapat disesuaikan dengan kebutuhan toko. Beberapa *extension* yang populer diantaranya:
+ 1. Plugin pembayaran lokal seperti **Midtrans**, **Xendit**, atau **Doku**
+ 2. Plugin pengiriman otomatis seperti **RajaOngkir** dan **JNE**
+ 3. Plugin SEO, dan lain-lain
+
+![Ext](./Screenshot/Extension%20in%20WooCommerce.png)
+
+### 9. Sesuaikan Theme Tampilan
+WooCommerce menyediakan beberapa *template* tampilan yang mungkin dapat menarik beberapa pelanggan.
+
+![Theme Choser](./Screenshot/Sesuaikan%20theme%20tampilan.png)
+
+### 10. Up Toko
+Toko dapat dibuka ke publik. Matikan *Maintenance Mode* dan toko sudah siap beroperasi penuh dan menerima pelanggan dari berbagai penjuru.
+
+![Publish Toko](./Screenshot/Up%20toko.png)
 
 ## 📚 Referensi
 
