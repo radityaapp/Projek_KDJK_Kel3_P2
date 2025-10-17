@@ -475,6 +475,20 @@ Toko dapat dibuka ke publik. Matikan *Maintenance Mode* dan toko sudah siap bero
 
 ![Publish Toko](./Screenshot/Up%20toko.png)
 
+## 🛒 Pembahasan: Woocommerce vs. Others
+
+### PrestaShop 🛍
+- ✅ Kelebihan: memiliki fitur bawaan yang lebih lengkap (laporan statistik yang detail, dll), manajemen multitoko yaitu mengelola beberapa toko dari satu panel admin jauh lebih mudah, performa lebih baik
+- ⚠️ Kekurangan: jumlah add-ons tidak sebanyak WooCommerce, interface PrestaShop membutuhkan adaprasi, PrestaShop tidak seintuitif WordPress
+
+### OpenCart 🛍
+- ✅ Kelebihan: instalasi dasar yang ringan sehingga tidak membebani server, interface yang straightforward dan mudah dinavigasi, dukungan untuk multitoko
+- ⚠️ Kekurangan: menemukan fungsionalitas spesifik lebih sulit, kurang ramah SEO, memiliki tantangan skalabilitas untuk puluhan ribu produk dan lalu lintas tinggi
+
+### Magento Open Source 🛍
+- ✅ Kelebihan: Magento dibangun untuk menangani ribuan produk dan lalu lintas tinggi tanpa mengorbankan performa sehingga skalabilitas dan performa superior, memiliki fitur kompleks seperti manajemen inventaris multigudang dan penetapan harga kompleks, memiliki fleksibilitas sehingga memungkinkan developer untuk mengkustomisasi hampir setiap aspek
+- ⚠️ Kekurangan: kompleks dan susah dipelajari, biaya pengembangan dan hosting tinggi, manajemen sehari-hari lebih rumit
+
 ## 📚 Referensi
 
 ### Dokumentasi Official
