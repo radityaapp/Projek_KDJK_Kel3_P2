@@ -10,6 +10,15 @@
 
 </div>
 
+## 👨‍🎓 Project Member
+| Nama Anggota                    | NIM         | Github Userid     |
+| ------------------------------- | ----------- | ----------------- |
+| Ghaliyh Rayhan Adz Dzikra       | G6401231001 | ghaliyhadzkr      |
+| Praditya Putra Irawan           | G6401231057 | radityaapp        |
+| Marstella Nataline Purba Siboro | G6401231101 | marstellanataline |
+| Andra Firmansyah Asmoro         | G6401231115 | derrandra         |
+| Khalisha Rana Putri             | G6401231141 | khalisharana      |  
+
 ## 📑 Daftar Isi
 
 - [Sekilas Tentang WooCommerce](#-sekilas-tentang-woocommerce)
