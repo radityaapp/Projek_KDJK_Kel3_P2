@@ -488,26 +488,28 @@ WooCommerce adalah platform e-commerce open-source yang dibangun di atas WordPre
 
 ### ⚠️ Kekurangan
 
-Berikut adalah kekurangan-kekurangan dari woocommerece : 
+Berikut adalah kekurangan-kekurangan dari woocommerece :
 
 1. _Kompleksitas setup awal_ - Proses setup menjadi tantangan dan memakan waktu yang cukup banyak bagi orang yang tidak familiar dengan wordpress
 2. _Full Technical Responsibility_ - WooComerce memerlukan tanggung jawab penuh terhadap teknikal website seperti mengelola web hosting, nama domain, keamanan, back up, serta update secara reguler
-3. _Memerlukan sumber daya berat_ - WooCommerce dibangun diatas wordpress memerlukan sumber daya server yang substansial. Ini 
+3. _Memerlukan sumber daya berat_ - WooCommerce dibangun diatas wordpress memerlukan sumber daya server yang substansial. Ini
 4. _Konflik Plugin_ - WooCommerce bergantung pada sistem modular. Pembaruan pada satu plugin atau inti WordPress terkadang dapat menyebabkan masalah kompatibilitas
 5. _Support team yang terpisah_ - Apabila terdapat suatu permasalahan yang dialami oleh web, tim harus melakukan komunikasi ke berbagai support team yang berbeda (Hosting, wordpress, dll)
-
 
 ## 🛒 Pembahasan: WooCommerce vs. Others
 
 ### PrestaShop 🛍
+
 - ✅ Kelebihan: memiliki fitur bawaan yang lebih lengkap (laporan statistik yang detail, dll), manajemen multitoko yaitu mengelola beberapa toko dari satu panel admin jauh lebih mudah, performa lebih baik
 - ⚠️ Kekurangan: jumlah add-ons tidak sebanyak WooCommerce, interface PrestaShop membutuhkan adaprasi, PrestaShop tidak seintuitif WordPress
 
 ### OpenCart 🛍
+
 - ✅ Kelebihan: instalasi dasar yang ringan sehingga tidak membebani server, interface yang straightforward dan mudah dinavigasi, dukungan untuk multitoko
 - ⚠️ Kekurangan: menemukan fungsionalitas spesifik lebih sulit, kurang ramah SEO, memiliki tantangan skalabilitas untuk puluhan ribu produk dan lalu lintas tinggi
 
 ### Magento Open Source 🛍
+
 - ✅ Kelebihan: Magento dibangun untuk menangani ribuan produk dan lalu lintas tinggi tanpa mengorbankan performa sehingga skalabilitas dan performa superior, memiliki fitur kompleks seperti manajemen inventaris multigudang dan penetapan harga kompleks, memiliki fleksibilitas sehingga memungkinkan developer untuk mengkustomisasi hampir setiap aspek
 - ⚠️ Kekurangan: kompleks dan susah dipelajari, biaya pengembangan dan hosting tinggi, manajemen sehari-hari lebih rumit
 
