@@ -29,7 +29,7 @@
 - [Instalasi Otomatis](#-instalasi-otomatis)
 - [Troubleshooting](#-troubleshooting)
 - [Optimasi Performa](#-optimasi-performa)
-- [Cara Penggunaan WooCommerce]()
+- [Cara Penggunaan WooCommerce](#-cara-penggunaan-woocommerce)
 - [Kelebihan & Kekurangan](#-kelebihan--kekurangan)
 - [Pembahasan: WooCommerce vs. Others](#-pembahasan-woocommerce-vs-others)
 - [Referensi](#-referensi)
