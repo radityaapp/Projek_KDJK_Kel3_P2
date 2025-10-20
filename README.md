@@ -44,10 +44,10 @@ Proyek ini mendokumentasikan proses instalasi dan konfigurasi WordPress dengan p
 
 ### Mengapa Nginx?
 
-- ⚡ Performa tinggi untuk melayani konten statis
-- 🔄 Reverse proxy yang efisien
-- 💪 Mampu menangani ribuan koneksi simultan
-- 📉 Penggunaan resource yang lebih rendah dibanding Apache
+- Performa tinggi untuk melayani konten statis
+- Reverse proxy yang efisien
+- Mampu menangani ribuan koneksi simultan
+- Penggunaan resource yang lebih rendah dibanding Apache
 
 ## ✨ Fitur
 
@@ -56,10 +56,7 @@ Proyek ini mendokumentasikan proses instalasi dan konfigurasi WordPress dengan p
 - ✅ Setup database MySQL/MariaDB
 - ✅ Konfigurasi PHP-FPM untuk performa maksimal
 - ✅ Firewall (UFW) yang sudah dikonfigurasi
-- ✅ SSL/TLS ready (dengan Let's Encrypt)
 - ✅ Integrasi WooCommerce
-- ✅ Backup script included
-- ✅ Security hardening
 
 ## 💻 Kebutuhan Sistem
 
